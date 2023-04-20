@@ -64,7 +64,7 @@ def format_yolov5(frame):
 
 
 def build_model(is_cuda):
-    net = cv2.dnn.readNet("models\\best.onnx")
+    net = cv2.dnn.readNet("models\\goldenclicker.onnx")
     if is_cuda:
         print("Attempty to use CUDA")
         net.setPreferableBackend(cv2.dnn.DNN_BACKEND_CUDA)

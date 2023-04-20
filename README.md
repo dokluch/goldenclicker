@@ -7,8 +7,6 @@ There is no Docker image, since making screenshots means that you have to give e
 
 Feel free to experiment with the code. Write me if you need a training data and istructions to train your own model.
 
-
-
 # Installation instructions
 
 First, clone this repository to a folder on your machine:
@@ -85,6 +83,15 @@ conda install --file requirements.txt
 ```
 
 This will install all the required packages and their dependencies inside the conda environment.
+
+# Running Golden clicker
+
+A simple command 
+```
+python app.py
+```
+Will run the tool with a 10 seconds delay between screenshots
+
 
 # Acknowledgement
 - Yolov5 code by Ultralytics https://github.com/ultralytics/yolov5
